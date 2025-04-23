@@ -5,10 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Visio</title>
     <link rel="stylesheet" href="/Css/style.css"/>
+    <style>
+      .logo {
+        max-width: 120px;
+        width: 100%;
+        height: auto;
+        margin: 1rem;
+      }
+    </style>
 </head>
 <body>
   <header>
-    <img src="" alt="Visio logo" class="logo" />
+    <img src="Assets/image.svg" alt="Visio logo" class="logo" />
     <!-- <div class="slogan">LOOK BEYOND THE ORDINARY</div> -->
 
     <nav class="nav-bar" >
@@ -19,16 +27,29 @@
   </header>
 
   <div class="hero">
-    <img src="Assets/sergey-pesterev-FRMtK1yfFsY-unsplash@4x.png" alt="Hero painting image" />
+    <img class="hero-img" src="Assets/sergey-pesterev-FRMtK1yfFsY-unsplash@4x.png" alt="Hero painting image" />
+    <button class="hero-btn">WE CAN AND WE WILL</button>
+    <div class="hero-arrows">
+      <span class="arrow left">&#8592;</span>
+      <span class="arrow right">&#8594;</span>
+    </div>
+    <div class="hero-dots">
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
   </div>
  
   <div class="content">
-    <p>
-      Visio is an investment management firm initially founded by Patrice Moyal in 2003.
-      The nimble, highly focused and dynamic team manage assets across listed strategies
-      for a diversified client base that includes some of the world’s largest and most
-      sophisticated investors.
-    </p>
+    <div class="intro">
+      <p>
+        Visio is an investment management firm initially founded by Patrice Moyal in 2003.
+        The nimble, highly focused and dynamic team manage assets across listed strategies
+        for a diversified client base that includes some of the world’s largest and most
+        sophisticated investors.
+      </p>
+      <div class="decorative-graphic"></div>
+    </div>
 
     <div class="sections">
       <div class="section-card">
@@ -54,4 +75,4 @@
 </body>
 
 
-</html> 
+</html>

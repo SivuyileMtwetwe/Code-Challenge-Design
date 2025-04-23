@@ -1,101 +1,168 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+}
 
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #fff;
-      color: #222;
-    }
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 3rem 1rem 3rem;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+}
 
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 1rem 2rem;
-    }
+.logo {
+  width: 160px;
+  height: auto;
+  margin: 0;
+}
 
-    .logo {
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
+.nav-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
 
-    .hero {
-      position: relative;
-      text-align: center;
-    }
+.nav-bar span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background: #222;
+  border-radius: 2px;
+}
 
-    .hero img {
-      width: 100%;
-      max-height: 500px;
-      object-fit: cover;
-    }
+.hero {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
 
-    .slogan {
-      position: absolute;
-      top: 1rem;
-      left: 1rem;
-      background: rgba(0, 51, 153, 0.9);
-      color: white;
-      padding: 0.5rem 1rem;
-      font-size: 0.9rem;
-      letter-spacing: 1px;
-    }
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-    .content {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      text-align: center;
-    }
+.hero-btn {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  background: #2056b3;
+  color: #fff;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 2px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
 
-    .sections {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 1rem;
-      margin-top: 2rem;
-    }
+.hero-arrows {
+  position: absolute;
+  top: 50%;
+  right: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transform: translateY(-50%);
+}
 
-    .section-card {
-      background: #001f3f;
-      color: white;
-      padding: 1.5rem;
-      width: 280px;
-      text-align: left;
-      cursor: pointer;
-      transition: background 0.3s;
-    }
+.arrow {
+  font-size: 2rem;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+}
 
-    .section-card:hover {
-      background: #004080;
-    }
+.hero-dots {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+  display: flex;
+  gap: 8px;
+}
 
-    .section-card > span {
-      font-size: 1.2rem;
-      color: #00bfff;
-    }
+.dot {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  opacity: 0.5;
+  border-radius: 50%;
+}
 
-    .quick-links {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.5rem;
-      margin: 2rem 0;
-    }
+.content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
 
-    .quick-links a {
-      background: #002b80;
-      color: white;
-      padding: 0.5rem 1rem;
-      text-decoration: none;
-      font-size: 0.9rem;
-    }
+.intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
-    .quick-links a:hover {
-      background: #0052cc;
-    }
+.intro p {
+  font-size: 1rem;
+  max-width: 600px;
+}
 
-    @media (max-width: 600px) {
-      .section-card {
-        width: 100%;
-      }
-    }
+.decorative-graphic {
+  width: 120px;
+  height: 40px;
+  background: url('/Assets/decorative.svg') no-repeat center/contain;
+}
+
+.sections {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0 1rem 0;
+}
+
+.section-card {
+  background: #002147;
+  color: #fff;
+  flex: 1;
+  padding: 2rem 1.5rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 2px;
+}
+
+.section-card span {
+  color: #1e90ff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.quick-links {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 2rem;
+}
+
+.quick-links a {
+  background: #1e90ff;
+  color: #fff;
+  padding: 0.7rem 1.2rem;
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+
+.quick-links a:hover {
+  background: #2056b3;
+}
