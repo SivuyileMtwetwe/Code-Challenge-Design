@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <text style="fill: rgb(61, 71, 173); font-family: Arial, sans-serif; font-size: 153.7px; font-weight: 700; white-space: pre; transform-box: fill-box; transform-origin: 50% 50%;" transform="matrix(0, -0.366782, 0.439649, 0, -99.968988, -12.934755)" x="106.757" y="287.935">I</text>
+  <text style="fill: rgb(61, 71, 173); font-family: Arial, sans-serif; font-size: 97.3319px; font-weight: 700; white-space: pre; transform-origin: 128.109px 234.759px;" transform="matrix(0.783247, 0, 0, 0.938849, 251.465671, -34.242245)" x="106.757" y="287.935">I</text>
+  <g style="" transform="matrix(0.535073, 0, 0, 0.535073, -23.535744, 93.675317)">
+    <text style="fill: rgb(61, 71, 173); font-family: Arial, sans-serif; font-size: 126.3px; font-weight: 700; white-space: pre;" x="165.735" y="281.556">O</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 122.779px; font-weight: 700; white-space: pre; transform-origin: 128.109px 234.759px;" transform="matrix(2.690608, 0, 0, 1.281031, 75.853463, -16.453512)" x="106.757" y="287.935">I</text>
+  </g>
+  <text style="fill: rgb(61, 71, 173); font-family: Arial, sans-serif; font-size: 67.6px; font-weight: 700; white-space: pre; transform-box: fill-box; transform-origin: 57.4083% 57.377%;" transform="matrix(0, -1, 1, 0, -67.263201, 14.810203)" x="218.571" y="221.228">V</text>
+  <text style="fill: rgb(61, 71, 173); font-family: Arial, sans-serif; font-size: 77.2px; font-weight: 700; white-space: pre; transform-origin: 242.638px 223.08px;" x="217.029" y="249.615">V</text>
+  <g transform="matrix(1, 0, 0, 1, 17.27859, -158.593035)">
+    <g transform="matrix(1, 0, 0, 1, 2.468384, -0.617107)">
+      <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 97.3319px; font-weight: 700; white-space: pre; transform-origin: 128.109px 234.759px;" transform="matrix(3.075581, -1.03339, 0.299023, 0.889957, 130.984011, 116.683184)" x="106.757" y="287.935">I</text>
+    </g>
+  </g>
+  <g style="transform-origin: 205.247px 232.088px;" transform="matrix(0, -0.535073, 0.535073, 0, 221.902103, -17.648299)">
+    <text style="fill: rgb(61, 71, 173); font-family: Arial, sans-serif; font-size: 126.3px; font-weight: 700; white-space: pre;" x="165.735" y="281.556">O</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 122.779px; font-weight: 700; white-space: pre; transform-origin: 128.109px 234.759px;" transform="matrix(2.690608, 0, 0, 1.281031, 75.853463, -16.453512)" x="106.757" y="287.935">I</text>
+  </g>
+  <g style="transform-origin: 204.093px 229.782px;" transform="matrix(0, 0.535073, -0.535073, 0, 96.549486, -8.553992)">
+    <text style="fill: rgb(61, 71, 173); font-family: Arial, sans-serif; font-size: 126.3px; font-weight: 700; white-space: pre;" x="165.735" y="281.556">O</text>
+    <text style="fill: rgb(255, 255, 255); font-family: Arial, sans-serif; font-size: 122.779px; font-weight: 700; white-space: pre; transform-origin: 128.109px 234.759px;" transform="matrix(2.690608, 0, 0, 1.281031, 75.853463, -16.453512)" x="106.757" y="287.935">I</text>
+  </g>
+</svg>

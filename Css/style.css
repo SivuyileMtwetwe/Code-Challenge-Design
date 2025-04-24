@@ -115,34 +115,52 @@ header {
 }
 
 .decorative-graphic {
-  width: 120px;
-  height: 40px;
-  background: url('/Assets/decorative.svg') no-repeat center/contain;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-left: auto;
+  border-radius: 2px;
 }
 
 .sections {
   display: flex;
   gap: 2rem;
-  margin: 2rem 0 1rem 0;
+  flex-direction: row;
+  width: 100%;
+  margin: 3rem 0 2rem 0;
+  justify-content: center;
 }
 
 .section-card {
-  background: #002147;
+  background: #001233;
   color: #fff;
   flex: 1;
-  padding: 2rem 1.5rem;
+  padding: 2rem;
   font-size: 1.2rem;
   font-weight: 500;
   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
-  gap: 1rem;
-  border-radius: 2px;
+  gap: 1.5rem;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  min-height: 150px;
+  width: 350px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.section-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
 }
 
 .section-card span {
   color: #1e90ff;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
+  margin-bottom: 1rem;
 }
 
 .quick-links {
