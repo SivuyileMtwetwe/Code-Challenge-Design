@@ -1,89 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Visio Investment Management</title>
-  <link rel="stylesheet" href="/Css/style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISIO</title>
+    <link rel="stylesheet" href="Css/style.css">
 </head>
 <body>
-  <header>
-    <img src="Assets/image.svg" alt="VISIO" class="logo" />
-    
-    <nav class="nav-bar">
-      <span></span>
-      <span></span>
-      <span></span>
-    </nav>
-  </header>
+    <header id="header">
+        <img src="Assets/image.svg" alt="VISIO" class="logo" />
+        
+        <nav>
+            <div class="nav-bar" id="menuIcon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#"><img src="Assets/chevron.svg" alt="Arrow" class="arrow-img" /> Home</a></li>
+                <li><a href="#"><img src="Assets/chevron.svg" alt="Arrow" class="arrow-img" /> About</a></li>
+                <li><a href="#"><img src="Assets/chevron.svg" alt="Arrow" class="arrow-img" /> Services</a></li>
+                <li><a href="#"><img src="Assets/chevron.svg" alt="Arrow" class="arrow-img" /> Contact</a></li>
+                <img src="Assets/image.svg" alt="Mobile White Logo" class="mobile-logo" id="mobileLogo" />
+                <li><img src="Assets/Strange thingie.svg" alt="Blue Icons" class="blue-icons" /></li>
+            </ul>
+        </nav>
+    </header>
 
-  <div class="hero">
-    <img class="hero-img" src="Assets/sergey-pesterev-FRMtK1yfFsY-unsplash@4x.png" alt="Hero image" />
-    <button class="hero-btn">WE CAN AND WE WILL</button>
-    <div class="hero-arrows">
-      <span class="arrow right">&#8594;</span>
+    <section class="main-slider">
+        <div class="inner">
+            <div class="hero">
+                <div class="overlay-text" id="overlayText">WE CAN AND WE WILL</div>
+                <div class="slider">
+                    <img class="hero-img" id="heroImage" src="Assets/2-e1733732415237.png" alt="Hero image" />
+                </div>
+                <div class="dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+            </div>
+            <div class="hero-arrows">
+                <span class="arrow right" id="nextSlide">&#8594;</span>
+            </div>
+        </div>
+    </section>
+   
+    <div class="content">
+        <div class="intro">
+            <p>
+                Visio is an investment management firm initially founded by Patrice Moyal in 2003.
+                The nimble, highly focused and dynamic team manage assets across listed strategies
+                for a diversified client base that includes some of the world's largest and most
+                sophisticated investors.
+            </p>
+            <img class="decorative-graphic" src="Assets/Strange thingie.svg" alt="Decorative graphic">
+        </div>
+  
+        <ul class="main-nav">
+            <li class="nav-item">
+                <div class="nav-text">THE VISIO<br>DIFFERENCE</div>
+            </li>
+            <li class="nav-item">
+                <div class="nav-text">MEET THE<br>VISIO TEAM</div>
+            </li>
+            <li class="nav-item">
+                <div class="nav-text">OUR FUNDS<br>AND INVESTMENTS</div>
+            </li>
+        </ul>
+        
+        <ul class="sub-nav">
+            <li class="sub-nav-item">
+                <a href="#">HEDGE FUNDS <span class="sub-chevron">&gt;</span></a>
+            </li>
+            <li class="sub-nav-item">
+                <a href="#">UNIT TRUSTS <span class="sub-chevron">&gt;</span></a>
+            </li>
+            <li class="sub-nav-item">
+                <a href="#">SEGREGATED MANDATES <span class="sub-chevron">&gt;</span></a>
+            </li>
+            <li class="sub-nav-item">
+                <a href="#">AFRICA FUNDS <span class="sub-chevron">&gt;</span></a>
+            </li>
+            <li class="sub-nav-item">
+                <a href="#">FUND PERFORMANCE <span class="sub-chevron">&gt;</span></a>
+            </li>
+            <li class="sub-nav-item">
+                <a href="#">RISK MANAGEMENT <span class="sub-chevron">&gt;</span></a>
+            </li>
+        </ul>
     </div>
-  </div>
- 
-  <div class="content">
-    <div class="intro">
-      <p>
-        Visio is an investment management firm initially founded by Patrice Moyal in 2003.
-        The nimble, highly focused and dynamic team manage assets across listed strategies
-        for a diversified client base that includes some of the world's largest and most
-        sophisticated investors.
-      </p>
-      <img class="decorative-graphic" src="Assets/Strange thingie.svg" alt="">
-    </div>
-
-    <div class="main-nav">
-      <div class="nav-item">
-        <div class="chevron">&gt;</div>
-        <div class="nav-text">THE VISIO<br>DIFFERENCE</div>
-      </div>
-      
-      <div class="nav-item">
-        <div class="chevron">&gt;</div>
-        <div class="nav-text">MEET THE<br>VISIO TEAM</div>
-      </div>
-      
-      <div class="nav-item">
-        <div class="chevron">&gt;</div>
-        <div class="nav-text">OUR FUNDS<br>AND INVESTMENTS</div>
-      </div>
-    </div>
-    
-    <div class="sub-nav">
-      <div class="sub-nav-item blue-item">
-        <span>HEDGE FUNDS</span>
-        <span class="sub-chevron">&gt;</span>
-      </div>
-      
-      <div class="sub-nav-item blue-item">
-        <span>UNIT TRUSTS</span>
-        <span class="sub-chevron">&gt;</span>
-      </div>
-      
-      <div class="sub-nav-item blue-item">
-        <span>SEGREGATED MANDATES</span>
-        <span class="sub-chevron">&gt;</span>
-      </div>
-      
-      <div class="sub-nav-item blue-item">
-        <span>AFRICA FUNDS</span>
-        <span class="sub-chevron">&gt;</span>
-      </div>
-      
-      <div class="sub-nav-item blue-item">
-        <span>FUND PERFORMANCE</span>
-        <span class="sub-chevron">&gt;</span>
-      </div>
-      
-      <div class="sub-nav-item blue-item">
-        <span>RISK MANAGEMENT</span>
-        <span class="sub-chevron">&gt;</span>
-      </div>
-    </div>
-  </div>
+    <script src="Js/script.js"></script>
 </body>
 </html>
