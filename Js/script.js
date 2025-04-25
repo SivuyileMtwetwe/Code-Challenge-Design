@@ -8,9 +8,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     const messages = [
         'WE CAN AND WE WILL',
-        'INVESTING WITH VISION',
-        'DRIVEN BY PERFORMANCE',
-        'PARTNERING FOR SUCCESS'
+        "WE LEAVE NO STONE UNTURNED",
+        "LOOKING BEYOND THE ORDINARY FOR 21 YEARS"
+    
     ];
 
     let currentIndex = 0;
